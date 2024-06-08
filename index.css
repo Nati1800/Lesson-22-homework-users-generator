@@ -1,0 +1,67 @@
+.header-div{
+    background-color: red;
+        margin: auto;
+        width: 40%;
+}
+
+.reset-button-div{
+    background-color: green;
+        margin: auto;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+    }
+
+
+.cards-div{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+}
+
+.card {
+    width: 18rem;
+}
+
+.user-details{
+overflow: auto;
+    height: 8rem;
+    padding: 16px;
+    overflow-wrap: break-word;
+}
+
+
+.loader {
+    border: 16px solid #f3f3f3;
+    /* Light grey */
+    border-top: 16px solid #3498db;
+    /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    margin: auto;
+    display: none;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.countryImage {
+width: 44%;
+    height: 6rem;
+    margin: auto;
+}
+
+.country-button {
+    width: 60%;
+        margin: auto;
+}
